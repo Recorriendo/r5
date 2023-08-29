@@ -1,0 +1,394 @@
+body {
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    display: block;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+.orange {
+    top: 10%;
+    left: 0%;
+    width: 375px;
+    height:120px;
+    z-index: 1;
+}
+.mundo {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    color: #fff;
+    display: none;
+}
+.img5 {
+    position: absolute;
+    top: -1%; 
+    left: 37%;
+    width: 30%;
+    height: auto;
+    z-index: 5;
+    
+}
+.link1 {
+    position: absolute;
+    top: 17%; 
+    left: 15%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    z-index: 5;
+    font-size: 17px;
+}
+.link2 {
+    position: absolute;
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    z-index: 5;
+    font-size: 17px;
+}
+.link3 {
+    position: absolute;
+    top: 17%; 
+    left: 85%; 
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    z-index: 5;
+    font-size: 17px;
+}
+.link4 {
+    position: absolute;
+    top: 5%; 
+    left: 80%; 
+    z-index: 5;
+}
+.link5 {
+    position: absolute;
+    top: 4.5%;
+    left: 90%; 
+    z-index: 5;
+}
+.hero video {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+title {
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.center-heading {
+    text-align: center;
+}
+
+
+.passaporte1 {
+    font-size: 45px;
+    position: absolute;
+    top: 75%; 
+    left: 27%; 
+}
+
+.volaris1 {
+    position: absolute;
+    top: 155%; 
+    left: 0%; 
+    width: 150px;
+    height: auto;
+    z-index: 1;
+   
+}
+
+.aeromexico1 {
+    position: absolute;
+    top: 153%; 
+    left: 30%; 
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+.viva1 {
+    position: absolute;
+    top: 153%; 
+    left: 75%; 
+    width: 100px;
+    height: auto;
+    z-index: 1;
+}
+.image-container {
+    z-index: 1;
+    
+}
+.img1 {
+    position: absolute;
+    top: 65%; 
+    left: 83%; 
+    transform: translate(-50%, -50%) rotate(15deg);
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+}
+.img2 {
+    position: absolute;
+    top: 65%; 
+    left: 60%; 
+    transform: translate(-50%, -50%) rotate(-15deg);
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+}
+.img3 {
+    position: absolute;
+    top: 65%; 
+    left: 30%; 
+    transform: translate(-50%, -50%) rotate(15deg);
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+}
+.img4 {
+    position: absolute;
+    top: 65%; 
+    left: 0%; 
+    transform: translate(-50%, -50%) rotate(-15deg);
+    width: 150px;
+    height: 100px;
+    z-index: 3;
+}
+@font-face {
+    font-family: Bobaland;
+    src: url('fonts/Bobaland.ttf');
+}
+.headercontainer {
+    font-family: Bobaland;
+}
+.explora {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+.hoteles {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+
+}
+.links {
+    font-family: Bobaland;
+}
+.acerca {
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    font-size: 25px;
+    font-family: Mermaid;
+    padding: 10px 10px;
+    background-color: #3498db;
+}
+@font-face {
+    font-family: Mermaid;
+    src: url('fonts/Mermaid1001.ttf');
+}
+.trabajando {
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    font-size: 40px;
+}
+
+
+.container {
+    max-width: 1000px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+@media only screen and (min-width:760px) {
+    .orange {
+        left: 50%;
+        width: 100%;
+    }
+    .hero video{
+        display: block;
+        width: 100%;
+        left: 0%;
+    
+    }
+    .mainimg {
+        display: none;
+    }
+    .img5 {
+        width: 15%;
+        height: auto;
+        left: 43%;
+        
+    }
+    .img1 {
+        width: 350px;
+        height: auto;
+        top: 115%;
+
+    }
+    .img2 {
+
+        width: 350px;
+        height: auto;
+        top: 115%;
+    }
+    .img3 {
+        width: 350px;
+        height: auto;
+        top: 115%;
+    }
+    .img4 {
+        width: 350px;
+        height: auto;
+        top: 115%;
+    }
+    .passaporte1 {
+        font-size: 75px;
+        top: 130%; 
+        left: 20%; 
+    }
+    .acerca {
+        font-size: 50px;
+        left: 2%;
+        top: 150%;
+    }
+    .trabajando {
+        position: absolute;
+        top: 210%;
+        left: 20%;
+        font-size: 75px;
+    }
+    .volaris1 {
+        width: 250px;
+        top: 232%;
+    }
+    
+    .aeromexico1 {
+
+        width: 250px;
+        top:230%;
+        left: 35%;
+    }
+    .viva1 {
+        width: 200px;
+        top: 230%;
+    }
+    .link1 {
+        font-size: 35px;
+    }
+    .link2 {
+        font-size: 35px;
+    }
+    .link3 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .mundo {
+        font-size: 50px;
+    }
+ 
+    .orange {
+        width: 100%;
+        height: 150px;
+    }
+    .hero video {
+        display: block;
+        width: 100%;
+    
+    }
+
+    .img5 {
+        width: 10%;
+        height: auto;
+        left: 46%;
+        
+    }
+    .img1 {
+        width: 550px;
+        height: auto;
+        top: 145%;
+
+    }
+    .img2 {
+
+        width: 550px;
+        height: auto;
+        top: 145%;
+    }
+    .img3 {
+        width: 550px;
+        height: auto;
+        top: 145%;
+    }
+    .img4 {
+        width: 550px;
+        height: auto;
+        top: 145%;
+    }
+    .passaporte1 {
+        font-size: 110px;
+        top: 170%; 
+        left: 17%; 
+    }
+    .acerca {
+        font-size: 75px;
+        left: 1%;
+        top: 195%;
+    }
+    .trabajando {
+        position: absolute;
+        top: 285%;
+        left: 17%;
+        font-size: 120px;
+    }
+    .volaris1 {
+        width: 350px;
+        top: 332%;
+    }
+    
+    .aeromexico1 {
+
+        width: 350px;
+        top:330%;
+        left: 35%;
+    }
+    .viva1 {
+        width: 300px;
+        top: 330%;
+    }
+    .link1 {
+        font-size: 50px;
+    }
+    .link2 {
+        font-size: 50px;
+    }
+    .link3 {
+        font-size: 50px;
+    }
+
+}
